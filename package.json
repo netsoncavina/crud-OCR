@@ -1,0 +1,20 @@
+{
+  "name": "cadastro-ocr",
+  "version": "1.0.0",
+  "description": "CRUD utilizando OCR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Netson Cavina",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "multer": "^1.4.4",
+    "tesseract.js": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
