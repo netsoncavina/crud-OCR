@@ -39,7 +39,10 @@ app.post("/upload", (req, res) => {
           .then((result) => {
             res.send(result.text);
           })
-          .finally(() => worker.terminate());
+          .finally(() => {
+            worker.terminate();
+            fs.unlinkSync(`./uploads/${req.file.originalname}`);
+          });
       }
     });
   });
