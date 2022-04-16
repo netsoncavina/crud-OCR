@@ -4,7 +4,7 @@
   "description": "CRUD utilizando OCR",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "Netson Cavina",
   "license": "ISC",
