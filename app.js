@@ -54,6 +54,3 @@ const PORT = 5000 || process.env.PORT;
 app.use(express.static("public"));
 
 app.listen(PORT, () => console.log(`Servidor iniciado na porta ${PORT}`));
-// app.get("/uploads", (req, res) => {
-//   console.log("hey");
-// });
